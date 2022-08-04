@@ -10,7 +10,7 @@ from datetime import datetime
 from scipy.stats import linregress
 
 all_states_df = pd.read_excel('state_names.xlsx', index_col=0, sheet_name='State Names')
-dec_options = ['Yes','No']
+dec_options = ['Yes', 'No']
 fig1 = ''
 fig2 = ''
 fig3 = ''
